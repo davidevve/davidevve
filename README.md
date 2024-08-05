@@ -1,8 +1,11 @@
-- 👋 Hi, I’m @davidevve
+### ola eu sou o Davi Vinagre 💻🖱️🌐
 - 👀 eu me entereço por jogos,programação e robotica
 -gosto de trabalhar e espero que goste do meu perfil
+  
+aqui esta um pouco sobre min:
+<br/>[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/davi_vinagre_d/)
 
-<!---
-davidevve/davidevve is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+[![linktree](https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/Davi_Vinagre_Dias)
+
+![davidevve Github stats](https://github-readme-stats.vercel.app/api?username=davidevve&theme=blue-green)
+<br/>##Tecnologhias utilizadas no meu dia a dia codigo C

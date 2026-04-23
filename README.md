@@ -1,11 +1,98 @@
-### ola eu sou o Davi Vinagre 💻🖱️🌐
-- 👀 eu me entereço por jogos,programação e robotica
--gosto de trabalhar e espero que goste do meu perfil
-  
-aqui esta um pouco sobre min:
-<br/>[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/davi_vinagre_d/)
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bem-vindo ao site de IagoDSN. Aqui você encontra informações e atualizações sobre meus projetos hospedados no GitHub">
+    <meta name="keywords" content="IagoDSN, iagodsn, iagoDSN, rasperry">
+    <meta name="author" content="IagoDSN">
+    <title>IagoDSN</title>
+    <link rel="icon" href="imagens/courage.ico">
 
+    <link rel="stylesheet" href="CSS.css">
+    <script src="JavaScript.js"></script>
+</head>
+<body>
 
+            <div class="caixa">
+                <img id="imgPrincipal" src="imagens/courage.ico" class="logo" alt="foto de perfil" onclick="inicial()">
+                <div class="text Home" onclick="inicial()">HOME</div>
+                <div class="text conheca" onclick="sobre()">Downloads</div>
+                <div class="text conheca" onclick="contato()">Contato</div>
+                <img src="imagens/git.png" onclick="github()" class="ico" alt="github logo">
+                <img src="imagens/LogoInstagram.png" onclick="insta()" class="ico" alt="Instagram logo">
+                <div class="botao" onclick="menuas()">
+                    <div class="tr"></div>
+                    <div class="tr"></div>
+                    <div class="tr"></div>
+                </div>
+                </div>  
+                    
+                <div id="menu" class="slideDiv esconde">
+                    <div class="print" onclick="inicial()">HOME</div>
+                    <div id="pag" class="evento contato" onclick="sobre()">Downloads</div>
+                    <div id="pag" class="evento contato" onclick="contato()">Contato</div>
+                    <div class="redes">
+                        <img src="imagens/git.png" onclick="github()" class="ita" alt="github logo">
+                        <img src="imagens/LogoInstagram.png" onclick="insta()" class="ita" alt="Instagram logo">
+                </div>
+                </div>
 
-![davidevve Github stats](https://github-readme-stats.vercel.app/api?username=davidevve&theme=blue-green)
-<br/>##Tecnologhias utilizadas no meu dia a dia codigo C
+                <div class="container">
+                    <img src="imagens/fundo.jpg" class="fundo" alt="fundo da imagem principal">
+                </div>
+
+                <div style="justify-items: center; width: 100%; margin-bottom: 60px;">
+                    <p class="feed"><b>Experiencia com Micro-Controladores/Placas</b></p>
+                 </div>
+
+                <div class="flex">
+                    <div class="felx">
+                    <img src="imagens/placaard.png" id="placas" class="imgs" alt="imagem de um arduino">
+                    <div class="sobres">Arduino</div>
+                    </div>
+                    <div class="felx">
+                        <img src="imagens/placaras.png" id="placas" class="imgs" alt="imagem de um rasperry pi">
+                        <div class="sobres">Rasperry PI</div>
+                        </div>   
+                </div>
+
+                <div class="divbuto">
+                    <button class="buto" onclick="sobre()">Veja meus projetos</button>
+                    </div>
+
+                <h1 class="titu">Linguagem mais utilizada</h1>
+
+                <div class="diva">
+                    <div class="divter">
+                    <p class="pargafo">Python é uma linguagem de programação de alto nível criada por Guido van Rossum e lançada pela primeira vez em 1991. É conhecida por sua sintaxe clara e legível, que permite aos programadores escreverem códigos de maneira simples e intuitiva. Python suporta múltiplos paradigmas de programação, como procedural, orientada a objetos e funcional, tornando-se uma escolha versátil para diversos tipos de aplicações.</p>
+                    </div>
+                    <div class="divsecun">
+                    <img src="imagens/logo-python.png" class="log" alt="logo do JavaScript">
+                    </div>
+                </div>
+                
+
+                <img src="imagens/52e4bb28d095ff93d3a4019d43d628bc_w200.gif" id="dog" class="moving-image">
+    
+                <div style="background-color: #FFC107; height: 20px; width: 100%;"></div>
+                <div style="background-color: #dfaa0e; height: 10px; width: 100%; margin-bottom: 0px;"></div>
+                <div class="final">
+                    <div class="fina1"> 
+                    <img src="imagens/courage.ico" class="icone" alt="foto de perfil" onclick="inicial()">
+                </div>
+                <div class="fina2">
+                    <img src="imagens/logo-arduino.png" class="logos" alt="logo do rasperry pi" onclick="ard()">
+                    <img src="imagens/logo-python.png" class="logos" alt="logo do python" onclick="piton()">
+                    <img src="imagens/log-js.png" class="logos" alt="logo do JavaScript" onclick="jaba()">
+                    <img src="imagens/logo-c++.png" class="logos" alt="logo do C++" onclick="c()">
+                    <img src="imagens/logo-vbs.png" class="logos" alt="logo do VBS script" onclick="vba()">
+                    <img src="imagens/logo-windows.png" class="logos" alt="logo windows 10" onclick="wind()">
+                    <img src="imagens/rasperry.png" class="logos" alt="logo rasperry pi" onclick="pi()">
+                </div>
+                <div class="fina1">
+                    <p>Todos diretos reservados &copy;2025</p>
+                </div>
+                </div>
+</body>
+</html>
